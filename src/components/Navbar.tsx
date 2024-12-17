@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <nav className="bg-gray-100 px-4 py-2">
       <div className="container mx-auto flex items-center justify-between">
-        {/* Logo Section */}
+
         <div className="flex items-center space-x-2">
           <Image
             src="/images/logo.jpg"
@@ -23,7 +23,7 @@ const Navbar = () => {
           />
         </div>
 
-        {/* Desktop Menu */}
+    
         <ul className="hidden md:flex items-center space-x-6">
           <li>
             <Link
@@ -40,7 +40,7 @@ const Navbar = () => {
               className="text-gray-700 hover:text-gray-500 transition duration-200"
               aria-label="Shop"
             >
-              Shop
+              shop
             </Link>
           </li>
           <li>

@@ -37,7 +37,11 @@ export default function Hero() {
           </button>
         </div>
       </div>
-   
+
+   <div>
+   <h1 className="flex justify-center items-center mt-32">Browse The Range</h1>
+   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+   </div>
 
         <section className="text-gray-600 body-font">
   <div className="container px-5 py-24 mx-auto">
